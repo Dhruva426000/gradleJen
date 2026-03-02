@@ -10,7 +10,7 @@ pipeline{
      git branch: 'main',url : 'https://github.com/Dhruva426000/gradleJen.git'
      }
      }
-    stage('checkout'){
+    stage('Build'){
     steps{
      sh 'gradle build'
      }
